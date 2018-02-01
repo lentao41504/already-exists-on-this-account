@@ -1,0 +1,145 @@
+body {
+	font-family: Arial, sans-serif;
+	color: #222222;
+	padding: 0; 
+	margin: 0;
+}
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+
+}
+div {
+	box-sizing: border-box;
+}
+
+header {
+	background: url(../img/first-bg.jpg) no-repeat center top / cover;
+	height: 100vh;
+}
+
+.container {
+	width: 928px;
+	margin: 0 auto;
+}
+.logo {
+	 margin: 41px;
+
+}
+nav {
+	float: right;
+	margin-top: 45px;
+
+}
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 16px;
+}
+.menu li a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.titles__first {
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 180px; 
+
+}
+h1 {
+	font-size: 60px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 21px;
+}
+.button  {
+	background: #fed136;
+	color: #484543;
+	border-radius: 3px;
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font size: 18px;
+	margin-top: 50px;
+}
+
+.title {
+	padding-top: 115px;
+}
+.title h2 {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+}
+.title p {
+color: #777777;
+text-align:  center;
+font-size: 16px;
+margin-top: 5px;
+
+}
+.services {
+ margin-top: 81px;
+}
+.services__item {
+	width: 270px;
+	float: left;
+	text-align: center;
+}
+.servises__item h3 {
+font-size: 18px;
+margin-bottom: 5px;
+
+}
+.servises__item p {
+	color: #777777;
+	font-size: 14px;
+	line-height: 1.6em;
+}
+
+.services__item:last-cild {
+	float: right;
+}
+.services__item:nth-child(2) {
+	margin-left: 50px;
+}
+#services {
+	padding-bottom: 120px;
+}
+#portfolio {
+	background: #C0C0C0;
+	padding-bottom: 120px;
+
+}
+.works {
+	margin-top: 74px;
+}
+.works img {
+float: left;
+}
+.works img:nth-child(2) {
+	margin-left: 32px;
+}
+.works img:last-child {
+	float: right;
+}
